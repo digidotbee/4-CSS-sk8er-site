@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url("assets/bg.jpg");
+    background-size: cover;
+    background-position: right top;
+}
+
+#top{
+    display:flex;
+    justify-content: center;
+    align-items: initial;
+}
+
+.navitems {
+    text-align: center;
+    border-bottom: 4px solid rgb(132, 139, 146);
+    font-size: 9px;
+    font-family: Tahoma, sans-serif;
+    color: seashell;
+    height: 25px;
+    width: 160px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: rgb(151, 32, 32);
+
+}
+
+section {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 150px;
+    grid-template-rows: 150px;  
+
+}
+
+ .container1 {
+    height: 240px;
+    width: 695px;
+    background-color: transparent;
+    border:white solid 4px;
+    background-image: url("/4-CSS-sk8er-site/assets/top-image.png");
+    background-position: 35% 30%;
+    margin: 0 auto;
+}
+
+.container2 {
+    display: flex;
+    width: 700px;
+}
+
+.container3 {
+    height: 300px;
+    width: 700px;
+
+}
+
+.skateitem { 
+    height: 240px;
+    width: 225px;
+    margin: 0 auto;
+    margin-top: 15px;
+    justify-content: space-between;
+    background-color: rgb(226, 218, 202);
+    border: solid white 5px;
+}
+
+.grid {
+    height: 240px;
+    width: 700px;
+    background-color: transparent;
+    border:white solid 4px;
+    background-image: url("/4-CSS-sk8er-site/assets/peralta-logo.png");
+    background-position: left center;
+}
+
+.ContainStart {
+    width: 400px;
+}
+
+.ContainEnd {
+    width: 400px;
+}
